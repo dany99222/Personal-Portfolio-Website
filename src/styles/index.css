@@ -674,3 +674,14 @@ main {
   font-size: 1.1rem;
   margin-bottom: 12px;
 }
+
+
+  .card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2);
+  }

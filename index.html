@@ -140,6 +140,9 @@
 
     <!-- Tecnologias  -->
     <section class="container" id="technologies">
+      <h2 class="text-center mb-4 display-5 fw-bold text-warning">
+        <i class="bi bi-code-slash me-2"></i>Technological Stack
+      </h2>
       <div class="contenedor-bash bg-black scroll-animate">
         <div class="bash-header">
           <div class="bash-header-botones">
@@ -287,11 +290,14 @@
     </section>
 
     <!-- Proyectos  -->
-    <section id="projects" class="contenedor-proyectos mb-5">
+    <section id="projects" class="contenedor-proyectos my-5">
       <div class="container scroll-animate">
-        <h2 class="text-info fs-1 fw-bold mt-5 mb-2">
-          Projects <i class="bi bi-cup-hot fs-1 fw-bold text-warning"></i>
+         <div class="text-center my-5">
+        <h2 class="display-4 fw-bold text-info">
+          <i class="bi bi-rocket-takeoff text-warning me-2"></i>Projects
         </h2>
+        <p class="lead text-light opacity-75">Explore my recent work</p>
+      </div>
         <div class="contenedor-cards-proyectos scroll-animate">
           <!-- Projecto1  -->
           <div class="card-project">
@@ -468,9 +474,14 @@
     <!-- Educacion  -->
     <section class="container" id="education">
       <div class="mt-5 mb-5">
-        <h2 class="fs-1 fw-bold text-info p-3 mt-2">
-          Education <i class="bi bi-mortarboard-fill fs-1 text-warning"></i>
-        </h2>
+        <div class="text-center my-5">
+          <h2 class="display-4 fw-bold text-info mb-2">
+            <i class="bi bi-mortarboard-fill text-warning me-2"></i>Education
+          </h2>
+          <p class="lead text-light opacity-75">
+            Academic journey & certifications
+          </p>
+        </div>
         <div class="container-cards">
           <div class="card-education text-white scroll-animate from-left">
             <h3 class="fs-3 fw-bold text-center text-warning">
@@ -537,45 +548,92 @@
       </div>
     </section>
 
-    <footer class="bg-navbar p-5">
-      <div class="container footer" id="contacto">
-        <p class="title-name bg-dark p-2 rounded shadow-lg border">
-          Luis Daniel Villalpando Hurtado
-        </p>
-        <div class="contenedor-redes bg-dark px-5 rounded shadow-lg border">
-          <a
-            href="https://wa.me/16613487832?text=Hola%20Luis%20Daniel,%20me%20pongo%20en%20contacto%20contigo%20tras%20revisar%20tu%20perfil%20profesional%20para%20comentar%20una%20oportunidad%20laboral."
-            target="_blank"
-            aria-label="Contactar por WhatsApp"
-          >
-            <i class="bi bi-whatsapp text-success fs-1"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/luisdanielvillalpandohurtado/"
-            target="_blank"
-            aria-label="Ver perfil de LinkedIn de Dany"
-            ><i class="bi bi-linkedin fs-1"></i
-          ></a>
-          <a
-            href="mailto:dany070100@gmail.com?subject=Oportunidad%20laboral&body=Hola%20Luis Daniel!,%0A%0AMe%20pongo%20en%20contacto%20contigo%20desde%20[Nombre%20de%20la%20empresa]%20sobre%20[posición%20o%20tema].%0A%0AQuedo%20atento%20a%20tu%20respuesta.%0A%0ASaludos,%0A[Nombre%20del%20reclutador]"
-            target="_blank"
-            aria-label="Enviar correo a Dany"
-          >
-            <i class="bi text-danger bi-envelope-at-fill fs-1"></i>
-          </a>
-          <a
-            href="https://github.com/dany99222"
-            target="_blank"
-            aria-label="Ver Perfil GitHub"
-            ><i class="text-white bi bi-github fs-1"></i
-          ></a>
-        </div>
+  <footer class="bg-dark border-top border-warning border-3 py-5 mt-5">
+  <div class="container" id="contacto">
 
-        <p class="title-year bg-dark rounded p-2 shadow-lg border">
-          © Derechos reservados <span class="year" id="year"></span>
-        </p>
+    <!-- Nombre -->
+    <div class="text-center mb-4">
+      <h3 class="display-6 fw-bold text-warning mb-2">
+        Luis Daniel Villalpando Hurtado
+      </h3>
+      <p class="text-light opacity-75 mb-0">Full-Stack Developer</p>
+    </div>
+
+    <hr class="border border-secondary opacity-25 my-4">
+
+    <!-- Social -->
+    <div class="row justify-content-center g-4 mb-4">
+
+      <!-- WhatsApp -->
+      <div class=" col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="https://wa.me/16613487832"
+           target="_blank"
+           aria-label="WhatsApp"
+           class="text-decoration-none">
+          <div class="card bg-secondary bg-opacity-25 border border-success text-center p-4 h-100 d-flex justify-content-center align-items-center">
+            <i class="bi bi-whatsapp text-success fs-1 mb-2"></i>
+            <small class="text-light">WhatsApp</small>
+          </div>
+        </a>
       </div>
-    </footer>
+
+      <!-- LinkedIn -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="https://www.linkedin.com/in/luisdanielvillalpandohurtado/"
+           target="_blank"
+           aria-label="LinkedIn"
+           class="text-decoration-none">
+          <div class="card bg-secondary bg-opacity-25 border border-primary text-center p-4 h-100 d-flex justify-content-center align-items-center">
+            <i class="bi bi-linkedin text-primary fs-1 mb-2"></i>
+            <small class="text-light">LinkedIn</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- Email -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="mailto:dany070100@gmail.com"
+           target="_blank"
+           aria-label="Email"
+           class="text-decoration-none">
+          <div class="card bg-secondary bg-opacity-25 border border-danger text-center p-4 h-100 d-flex justify-content-center align-items-center">
+            <i class="bi bi-envelope-at-fill text-danger fs-1 mb-2"></i>
+            <small class="text-light">Email</small>
+          </div>
+        </a>
+      </div>
+
+      <!-- GitHub -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <a href="https://github.com/dany99222"
+           target="_blank"
+           aria-label="GitHub"
+           class="text-decoration-none">
+          <div class="card bg-secondary bg-opacity-25 border border-light text-center p-4 h-100 d-flex justify-content-center align-items-center">
+            <i class="bi bi-github text-light fs-1 mb-2"></i>
+            <small class="text-light">GitHub</small>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <hr class="border border-secondary opacity-25 my-4">
+
+    <!-- Copyright -->
+    <div class="text-center">
+      <p class="text-light opacity-75 mb-0">
+        © <span id="year"></span> Luis Daniel Villalpando Hurtado. All rights reserved.
+      </p>
+      <p class="text-light opacity-50 small mb-0 mt-2">
+        Built with <i class="bi bi-heart-fill text-danger"></i>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
 
     <!-- contenedor Flotantes  -->
     <div
