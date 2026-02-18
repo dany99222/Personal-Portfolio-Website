@@ -12,6 +12,7 @@ I'm a passionate web developer who loves building attractive and functional inte
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -28,6 +29,7 @@ I'm a passionate web developer who loves building attractive and functional inte
 | Project | Description | Technologies | Demo |
 |---|---|---|---|
 | 🗂️ ProjectManagement | Project and task management app with drag & drop | React, TypeScript, Node.js, MongoDB | [Live demo](https://frontend-management-project.vercel.app/) |
+| 🍽️ Restaurant Kiosk | Restaurant ordering kiosk with real-time menu and order management | Next.js, TypeScript, Prisma, PostgreSQL, Zustand, Cloudinary | [Live demo](https://restaurante-next-lac.vercel.app/order/cafe) |
 | 🌐 Personal Portfolio | Personal website showcasing my projects and experience | HTML, CSS, JS, Bootstrap | [Live demo](https://personal-website-luisdanielvillalpand.netlify.app/) |
 
 ---
