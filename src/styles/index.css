@@ -742,3 +742,6 @@ main {
   margin-bottom: 0;
   letter-spacing: .03em;
 }
+.gap-5{
+  gap: 1rem;
+}
