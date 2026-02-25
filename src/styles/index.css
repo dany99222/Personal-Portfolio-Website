@@ -704,3 +704,41 @@ main {
       box-shadow: 0 0 0 0 rgba(25, 135, 84, 0);
     }
   }
+
+  .pf-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: .32rem .8rem;
+  border: 1px solid #252535;
+  border-radius: 5px;
+  color: #7a7a96;
+  background: #111120;
+  transition: color .2s, border-color .2s;
+  cursor: default;
+  user-select: none;
+}
+.pf-pill:hover {
+  color: #d4d4e8;
+  border-color: rgba(124,106,247,.35);
+}
+
+.edu-item {
+  display: flex;
+  align-items: baseline;
+  gap: .4rem;
+  font-size: .82rem;
+  color: #9ca3af;
+  line-height: 1.4;
+}
+
+.edu-source {
+  font-size: .72rem;
+  color: #6b7280;
+  margin-bottom: 0;
+  letter-spacing: .03em;
+}
